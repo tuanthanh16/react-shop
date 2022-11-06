@@ -1,10 +1,10 @@
-import Feature from "./products/Feature";
+import CaroselFeature from "./products/CaroselFeature";
 import ProductThumb from "./products/ProductThumb";
 
 const ProductList = () => {
   return (
     <div className="span9">
-      <Feature />
+      <CaroselFeature />
       <h4>Latest Products </h4>
       <ul className="thumbnails">
         <ProductThumb

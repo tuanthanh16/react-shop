@@ -58,7 +58,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <p className="pull-right">&copy; Bootshop</p>
+        <p className="pull-right">&copy; MyReactShop</p>
       </div>
     </div>
   );

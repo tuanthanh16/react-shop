@@ -1,16 +1,14 @@
-// import "./App.css";
-
-import Carosel from "./components/carosel/Carosel";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MainBody from "./components/MainBody";
-import SideBar from "./components/sidebars/SideBar";
+import MyCarosel from "./components/carosel/MyCarosel";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Carosel />
+      <MyCarosel />
+
       <MainBody />
       <Footer />
     </div>
